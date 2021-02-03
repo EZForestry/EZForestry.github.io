@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>EZ Forestry</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="loading">
+        <div id="spinner"></div>
+    </div>
+    <div id="magnify">
+        <h1 onclick="closemagnify()"><i class="fas fa-times"></i></h1>
+        <div id="img_here"></div>
+    </div>
+    <header id="header" class="animated slideInDown" style="animation-delay:1.8s;">
+        <table>
+            <tr>
+                <td id="logo">EZ Forestry</td>
+                <td id="navigation" class="hideOnPhone">
+                    <a href="#services">Services</a>
+                    <a href="#contact">Contact</a>
+                </td>
+            </tr>
+        </table>
+    </header>
+    <table id="top_part">
+        <tr>
+            <td id="about" class="animated slideInLeft" style="animation-delay:1.3s;">
+                <h1 class="blurb">Offering forestry services in the extended North Hastings area</h1>
+                <div id="contact">
+                    <h1>
+                      <div class="contact-title">Contact</div>
+                    </h1>
+
+                        <div id="inner_div">
+                            <table id="inner_table">
+                                <tr>
+                                   <td><i class="fas fa-mobile"></i> &nbsp; <a href="tel:6133345869">(613) 334-5869</a></td>
+                               </tr>
+                                <tr>
+                                    <td><i class="fas fa-phone"></i> &nbsp; <a href="tel:6133328009">(613) 332-8009</a></td>
+                                </tr>
+                                <tr>
+                                    <td><i class="fas fa-at"></i> &nbsp; <a href="mailto:dillabough.richard@gmail.com">dillabough.richard@gmail.com</a></td>
+                                </tr>
+
+                                <tr>
+                                    <td><i class="fas fa-map-marker-alt"></i> &nbsp; North Hastings Area</td>
+                                </tr>
+                            </table>
+                        </div>
+
+                </div>
+            </td>
+
+            <td id="rightImage" class="animated slideInRight" style="animation-delay:1.5s;"></td>
+        </tr>
+    </table>
+
+    <div id="services">
+        <h1>Services</h1>
+        <p>
+          Tree Marking
+
+        </p>
+        <p>
+          Tending (Brush saw, Chain saw, Chemical tending)
+        </p>
+        <p>
+          Privet line identification (please note we are not surveyors)
+        </p>
+    </div>
+    <footer class="footer">
+        <div>
+          EZ Forestry Inc.
+        </div>
+    </footer>
+    <script src="index.js" type="text/javascript"></script>
+
+</body>
+</html>
